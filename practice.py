@@ -14,9 +14,13 @@
 #     return True
 
 
-def analyze_numbers(numbers)
-    :print("maximum =", max(numbers))
-    print("minimum =", min(numbers))
-    print("sum =", sum(numbers))
-    print("average =", sum(numbers)/len(numbers))
-analyze_numbers([10, 20, 30, 40]) 
+# def analyze_numbers(numbers)
+#     :print("maximum =", max(numbers))
+#     print("minimum =", min(numbers))
+#     print("sum =", sum(numbers))
+#     print("average =", sum(numbers)/len(numbers))
+# analyze_numbers([10, 20, 30, 40]) 
+
+square = lambda x:x**2
+num = int(input("ENTER A NO. = "))
+print (square(num))
